@@ -38,8 +38,9 @@
             margin: 20px 0;
         }
         .image-container img {
-            max-width: 100%;
-            height: auto;
+            width: 100%; /* Ensure images resize to fit the container */
+            max-width: 600px; /* Set a maximum width */
+            height: auto; /* Maintain aspect ratio */
             border: 2px solid #ccc;
             border-radius: 5px;
         }
@@ -54,28 +55,28 @@
     <header>
         <h1>Welcome to My Website</h1>
         <img src="https://github.com/unfriendly1/ssujith.github.io/blob/main/IMG20240709055438.jpg?raw=true" alt="My Photo">
-        <p>This is a phot of mine! I live in visakhapatnam also known as city of destiny of often called Vizag </p>
+        <p>This is a photo of mine! I live in Visakhapatnam, also known as the City of Destiny or often called Vizag.</p>
     </header>
     <section>
         <h2>Gallery</h2>
-        <p> here is a small description about my city 
-            
-            Explore some of the amazing photos below.</p>
-<div class="image-container">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/RK_Beach_Visakhapatnam.jpg" alt="A beautiful scenery">
-    <p>Description: A photo that shows stunning visuals of RK Beach, one of the most visited places in my city.</p>
-</div>
+        <p>Here is a small description about my city. Explore some of the amazing photos below.</p>
 
-<div class="image-container">
-    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/79/14/11/the-giant-shiva-parvati.jpg?w=1200&h=-1&s=1" alt="Kailasagiri">
-    <p>Description: The above picture is a photo of Kailasagiri, the most famous place in Vizag.</p>
-</div>
+        <div class="image-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/RK_Beach_Visakhapatnam.jpg" alt="A beautiful scenery">
+            <p>Description: Stunning visuals of RK Beach, one of the most visited places in my city.</p>
+        </div>
 
-<div class="image-container">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/INS_Kursura_Submarine_Museum.jpg" alt="Submarine Museum">
-    <p>Description: The INS Kursura Submarine Museum in Visakhapatnam is a unique and iconic attraction located on R.K. Beach. It is a decommissioned Soviet-built INS Kursura (S20) submarine that served in the Indian Navy for 31 years before being converted into a museum in 2002.</p>
-</div>
+        <div class="image-container">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/79/14/11/the-giant-shiva-parvati.jpg?w=1200&h=-1&s=1" alt="Kailasagiri">
+            <p>Description: A photo of Kailasagiri, the most famous place in Vizag.</p>
+        </div>
 
+        <div class="image-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/INS_Kursura_Submarine_Museum.jpg" alt="Submarine Museum">
+            <p>Description: The INS Kursura Submarine Museum in Visakhapatnam is a unique and iconic attraction located on RK Beach. It is a decommissioned Soviet-built submarine that served in the Indian Navy for 31 years before being converted into a museum in 2002.</p>
+        </div>
     </section>
 </body>
 </html>
+
+
